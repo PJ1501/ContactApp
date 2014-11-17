@@ -14,5 +14,5 @@
     <icon src="/res/icon/android/logo_1.png"   platform="android"    density="mdpi" />
     <icon src="/res/icon/android/logo_1.png"   platform="android"    density="hdpi" />
     <icon src="/res/icon/android/logo_1.png"   platform="android"    density="xhdpi" />
-    <plugin name="org.apache.cordova.contacts" />
+    <gap:plugin name="org.apache.cordova.contacts" />
 </widget>
