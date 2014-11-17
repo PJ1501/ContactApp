@@ -39,7 +39,7 @@
         <script type="text/javascript">		
             document.addEventListener("deviceready", getContactList, false);
 			 function getContactList() {	
-			 	alert(1);
+			 	
 				var options      = new ContactFindOptions();
 				options.filter   = "";
 				options.multiple = true;				
@@ -47,6 +47,7 @@
 				navigator.contacts.find(fields, onSuccess, onError, options);
 			}
 			function onSuccess(contacts) {
+				alert(1);
 				//alert('Found ' + contacts.length + ' contacts.');
 				var listContacts ="";
 				for(var i=0;i<contacts.length;i++)
