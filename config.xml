@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.uit.sonhuynh" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="com.uit.sonhuynh" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/3.1.0">
     <name>Contact Example</name>
     <description>
         A sample Apache Cordova application that responds to the deviceready event.
@@ -14,5 +14,5 @@
     <icon src="/res/icon/android/logo_1.png"   platform="android"    density="mdpi" />
     <icon src="/res/icon/android/logo_1.png"   platform="android"    density="hdpi" />
     <icon src="/res/icon/android/logo_1.png"   platform="android"    density="xhdpi" />
-    
+    <gap:plugin name="org.apache.cordova.contacts" />
 </widget>
